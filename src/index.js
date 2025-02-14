@@ -5,13 +5,14 @@ import App from './App';*/
 import Button from './Button.jsx'
 import Input from './Input.jsx'
 import Table from './Table.jsx'
+import ContactForm from './ContactForm.jsx';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Table />
+    <ContactForm/>
   </React.StrictMode>
 );
 
